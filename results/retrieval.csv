@@ -1,0 +1,21 @@
+method,outcome,auroc,lift_at_k
+Learned embedding (cosine),death,0.8689498143381948,3.369410753250122
+Learned embedding (cosine),long_icu_stay,0.818166215902655,2.2918648719787598
+Learned embedding (cosine),vent_after_24h,0.912692292362163,2.6570513248443604
+Learned embedding (cosine),vaso_after_24h,0.885103745028991,2.8108887672424316
+Learned embedding (cosine),aki2_day2_7,0.7906643852538909,1.3524497747421265
+Raw features (Euclidean),death,0.8502401330622971,2.1064319610595703
+Raw features (Euclidean),long_icu_stay,0.7807632715487237,1.6519792079925537
+Raw features (Euclidean),vent_after_24h,0.8688852227823998,1.7132537364959717
+Raw features (Euclidean),vaso_after_24h,0.8550369781490211,1.8996540307998657
+Raw features (Euclidean),aki2_day2_7,0.7294396205733571,1.0972713232040405
+PCA-64 of raw features,death,0.8499779014070247,2.100771188735962
+PCA-64 of raw features,long_icu_stay,0.7816290378517019,1.6527990102767944
+PCA-64 of raw features,vent_after_24h,0.8690402613348472,1.7117658853530884
+PCA-64 of raw features,vaso_after_24h,0.8545708789845052,1.898627519607544
+PCA-64 of raw features,aki2_day2_7,0.7294168647139184,1.0960379838943481
+Encoder heads (direct prediction),death,0.8863980638419571,
+Encoder heads (direct prediction),long_icu_stay,0.8315739294562638,
+Encoder heads (direct prediction),vent_after_24h,0.9233469751056894,
+Encoder heads (direct prediction),vaso_after_24h,0.8976911750709612,
+Encoder heads (direct prediction),aki2_day2_7,0.7983584253881723,
