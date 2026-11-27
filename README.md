@@ -1,5 +1,7 @@
 # ICU Patient Similarity Search — MIMIC-IV 🔎
 
+![repo health](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/TasnimPuc/bd-rooftop-solar-calculator/main/.github/health/badge.json)
+
 "Patients like this one: what happened to them?" This repo turns the **first 24 hours of every ICU stay** in MIMIC-IV
 into a 64-dimensional embedding and indexes all past patients with **FAISS**. For a new patient it retrieves the most
 similar past patients and summarises their outcomes. This is retrieval-based decision support, not a black-box score.
